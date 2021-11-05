@@ -12,3 +12,4 @@ class SlashiesBot extends SapphireClient {
     this.stores.register(new SlashCommandStore());
   }
 }
+module.exports = SlashiesBot;

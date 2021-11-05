@@ -7,6 +7,8 @@ const SlashCommandStore = require("./lib/structures/SlashCommandStore.js");
 class SlashiesBot extends SapphireClient {
   constructor() {
     super({
+      intents: this.intents,
+      partials: this.partials
     });
 
     this.stores.register(new SlashCommandStore());

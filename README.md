@@ -6,7 +6,7 @@ A table with steps:
 <table border="1">
     <tr>
         <th>Step 1</th>
-        <td>`npm i @outramsean0/sapphire-slashcommands`</td>
+        <td>npm i @outramsean0/sapphire-slashcommands</td>
     </tr>
     <tr>
         <th>Step 2:

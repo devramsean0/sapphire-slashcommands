@@ -1,6 +1,6 @@
 {
   "name": "sapphire-slashcommands",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a simple slashcommand package for @sapphire/framework",
   "main": "src/index.js",
   "scripts": {

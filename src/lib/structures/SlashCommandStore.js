@@ -10,13 +10,12 @@
    constructor() {
      // This is the name of the directory we want to look in for our slash
      // commands.
-     super(SlashCommand, { name: "slashies" });
+     super(SlashCommand, { name: "slashcommands" });
    }
  
    async registerCommands() {
      const client = this.container.client;
      if (!client) return;
- 
      // This will split the slash commands between global and guild only.
      const slashCommands = this.container.stores.get("slashCommands");
      const [guildCmds, globalCmds] = slashCommands.partition(c => c.guildOnly);

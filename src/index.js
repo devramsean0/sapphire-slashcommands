@@ -2,7 +2,7 @@ require("dotenv").config();
 const { SapphireClient } = require("@sapphire/framework");
 
 // This is your custom store.
-const SlashCommandStore = require("./lib/structures/SlashCommandStore.js");
+const SlashCommandStore = require("./lib/SlashCommandStore.js");
 
 class SlashiesBot extends SapphireClient {
   constructor(context, options = {}) {

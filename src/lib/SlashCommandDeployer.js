@@ -1,5 +1,4 @@
 function Deployer() {
-        // this function will tell the SlashCommandStore to update the global and guild commands
           const slashCommandsStore = this.container.stores.get("slashCommands");
           if (slashCommandsStore) {
             try {

@@ -5,13 +5,16 @@ const { SapphireClient } = require("@sapphire/framework");
 const SlashCommandStore = require("./lib/structures/SlashCommandStore.js");
 
 class SlashiesBot extends SapphireClient {
-  constructor() {
-    super({
+  constructor(context, options = {}) {
+    super(context, options);
+    
+    // This is the payload the "deployer" requires to register the commands 
+    // at Discord.
+    this.commandData = {
       intents: this.intents,
-      partials: this.partials
-    });
-
-    this.stores.register(new SlashCommandStore());
+      partials: this.partials,
+      shards: this.shards
+    };
   }
 }
 module.exports = SlashiesBot;

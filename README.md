@@ -1,5 +1,7 @@
 # sapphire-slashcommands
-a simple slasshcommand package for @sapphire/framework
+a simple slashcommand package for @sapphire/framework
+<br>
+NOT Supported Officially. for support open a issue
 
 ## usage
 A table with steps:
